@@ -1,0 +1,38 @@
+Primeiro, defino uma função chamada aumento que recebe dois parâmetros: salarioAtual e planos.
+Esses parâmetros representam o salário atual do funcionário e o plano de trabalho dele, respectivamente.
+
+Dentro da função, são definidas três variáveis: planoA, planoB e planoC, que armazenam os percentuais
+de aumento correspondentes a cada plano. No caso, o planoA tem um aumento de 10%, o planoB de 15% e o
+planoC de 20%.
+
+Em seguida, são calculados os aumentos em reais para cada plano, utilizando as fórmulas:
+
+dezPorCento = (salarioAtual * planoA) / 100
+quinzePorCento = (salarioAtual * planoB) / 100
+vintePorCento = (salarioAtual * planoC) / 100.
+
+Essas fórmulas multiplicam o salário atual pelo percentual de aumento e dividem por 100 para
+obter o valor do aumento em reais.
+
+Depois, há um bloco de código usando a estrutura switch. Essa estrutura verifica o valor da variável
+planos e executa o bloco de código correspondente ao caso encontrado.
+
+Se planos for igual a "a", será impresso o resultado de salarioAtual + dezPorCento, ou seja, o novo
+salário após o aumento de 10% será exibido.
+
+Se planos for igual a "b", será impresso o resultado de salarioAtual + quinzePorCento, representando
+o novo salário com o aumento de 15%.
+
+Se planos for igual a "c", será impresso o resultado de salarioAtual + vintePorCento, que é o novo
+salário após o aumento de 20%.
+
+Caso planos não corresponda a nenhum dos casos anteriores, será executado o bloco de código do default,
+que imprime a mensagem "Plano inválido!".
+
+No final do código, são feitas algumas chamadas à função aumento com diferentes valores de plano
+("a", "b", "c", "d") para ilustrar o seu funcionamento.
+
+
+
+
+
